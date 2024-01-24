@@ -52,7 +52,6 @@
     "@tarojs/shared": "3.6.23",
     "@tarojs/taro": "3.6.23",
     "@tarojs/plugin-framework-react": "3.6.23",
-    "@tarojs/react": "3.6.23",
     "tarojs-plugin-solid": "^1.0.0",
     "tarojs-solid-custom-render": "^1.0.0",
     "solid-js": "^1.8.11"
