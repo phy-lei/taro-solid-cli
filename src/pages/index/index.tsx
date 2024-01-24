@@ -8,7 +8,6 @@ export default function Index() {
 
   const handleClick = () => {
     setCount(count() + 1)
-
   }
 
   return (

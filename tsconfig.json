@@ -15,6 +15,7 @@
     "sourceMap": true,
     "rootDir": ".",
     "allowJs": true,
+    "jsx": "preserve",
     "resolveJsonModule": true,
     "typeRoots": [
       "node_modules/@types"
