@@ -11,7 +11,7 @@ export default function Index() {
   }
 
   return (
-    <View className="index">
+    <View class="index">
       <Text style={`color: ${color()}`}>Hello world! </Text>
       <Text style={{color: color()}}>Hello world2! </Text>
       <Button onClick={() => setColor('blue')}>set style</Button>

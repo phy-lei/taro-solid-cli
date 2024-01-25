@@ -16,6 +16,7 @@
     "rootDir": ".",
     "allowJs": true,
     "jsx": "preserve",
+    "jsxImportSource": "solid-js",
     "resolveJsonModule": true,
     "typeRoots": [
       "node_modules/@types"
