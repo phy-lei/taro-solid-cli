@@ -55,10 +55,10 @@ dependencies:
     version: 1.8.12
   tarojs-plugin-solid:
     specifier: ^1.1.2
-    version: 1.1.2(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(solid-js@1.8.12)(tarojs-solid-custom-render@1.1.1)
+    version: 1.1.2(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(solid-js@1.8.12)(tarojs-solid-custom-render@1.1.2)
   tarojs-solid-custom-render:
-    specifier: ^1.1.1
-    version: 1.1.1(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(babel-preset-solid@1.8.12)(solid-js@1.8.12)
+    specifier: ^1.1.2
+    version: 1.1.2(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(babel-preset-solid@1.8.12)(solid-js@1.8.12)
 
 devDependencies:
   '@babel/core':
@@ -10048,7 +10048,7 @@ packages:
       xtend: 4.0.2
     dev: true
 
-  /tarojs-plugin-solid@1.1.2(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(solid-js@1.8.12)(tarojs-solid-custom-render@1.1.1):
+  /tarojs-plugin-solid@1.1.2(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(solid-js@1.8.12)(tarojs-solid-custom-render@1.1.2):
     resolution: {integrity: sha512-de4l26p0g9qhSKBWGMq+/prrLsgtELdM7rlmn5vthGbtQL/ON59AhJyKD6bNEl3yhhPeiDyiC3r3RhX7kgEgqw==}
     peerDependencies:
       '@tarojs/runtime': '>=3.0.0'
@@ -10059,11 +10059,11 @@ packages:
       '@tarojs/runtime': 3.6.23(@tarojs/shared@3.6.23)
       '@tarojs/shared': 3.6.23
       solid-js: 1.8.12
-      tarojs-solid-custom-render: 1.1.1(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(babel-preset-solid@1.8.12)(solid-js@1.8.12)
+      tarojs-solid-custom-render: 1.1.2(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(babel-preset-solid@1.8.12)(solid-js@1.8.12)
     dev: false
 
-  /tarojs-solid-custom-render@1.1.1(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(babel-preset-solid@1.8.12)(solid-js@1.8.12):
-    resolution: {integrity: sha512-1oxfccbVpuEW0rLESIl9MujeV0ig6WpU9GwIzyK+KUsS91RCs6Fxd2rGvE0AHlOCMJZsz795jcZq1WiCBvKHpA==}
+  /tarojs-solid-custom-render@1.1.2(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(babel-preset-solid@1.8.12)(solid-js@1.8.12):
+    resolution: {integrity: sha512-tXmfzvJlBkRiq4yRDydX+p0TIGTLJV2C9feOQVIwMjxeU0gsPVqc9df7kdxKaDHfoRu5RDO6/K+xo8vro1/QnQ==}
     peerDependencies:
       '@tarojs/runtime': '>=3.0.0'
       '@tarojs/shared': '>=3.0.0'
