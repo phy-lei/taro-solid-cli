@@ -54,11 +54,11 @@ dependencies:
     specifier: ^1.8.11
     version: 1.8.12
   tarojs-plugin-solid:
-    specifier: ^1.1.2
-    version: 1.1.2(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(solid-js@1.8.12)(tarojs-solid-custom-render@1.1.3)
+    specifier: ^1.1.4
+    version: 1.1.4(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(solid-js@1.8.12)(tarojs-solid-custom-render@1.1.4)
   tarojs-solid-custom-render:
-    specifier: ^1.1.3
-    version: 1.1.3(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(babel-preset-solid@1.8.12)(solid-js@1.8.12)
+    specifier: ^1.1.4
+    version: 1.1.4(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(babel-preset-solid@1.8.12)(solid-js@1.8.12)
 
 devDependencies:
   '@babel/core':
@@ -10048,8 +10048,8 @@ packages:
       xtend: 4.0.2
     dev: true
 
-  /tarojs-plugin-solid@1.1.2(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(solid-js@1.8.12)(tarojs-solid-custom-render@1.1.3):
-    resolution: {integrity: sha512-de4l26p0g9qhSKBWGMq+/prrLsgtELdM7rlmn5vthGbtQL/ON59AhJyKD6bNEl3yhhPeiDyiC3r3RhX7kgEgqw==}
+  /tarojs-plugin-solid@1.1.4(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(solid-js@1.8.12)(tarojs-solid-custom-render@1.1.4):
+    resolution: {integrity: sha512-VbuaQRDcq1wWCevJxQyGXSQ8/J5TPtWX8taJzFoHlxH0Ep/E5XY1sHPYj8g6Oe5UfapX1dbEBGPW7SXnSFIQhw==}
     peerDependencies:
       '@tarojs/runtime': '>=3.0.0'
       '@tarojs/shared': '>=3.0.0'
@@ -10059,11 +10059,11 @@ packages:
       '@tarojs/runtime': 3.6.23(@tarojs/shared@3.6.23)
       '@tarojs/shared': 3.6.23
       solid-js: 1.8.12
-      tarojs-solid-custom-render: 1.1.3(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(babel-preset-solid@1.8.12)(solid-js@1.8.12)
+      tarojs-solid-custom-render: 1.1.4(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(babel-preset-solid@1.8.12)(solid-js@1.8.12)
     dev: false
 
-  /tarojs-solid-custom-render@1.1.3(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(babel-preset-solid@1.8.12)(solid-js@1.8.12):
-    resolution: {integrity: sha512-h3J7xKOtmB7qrfghLhHbJ063MsW0H/AjndDf0w7uoB1PvDGIESWa6fqk8eTnJ0pS55K5SWQL2IkHOHoVTsbCFg==}
+  /tarojs-solid-custom-render@1.1.4(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(babel-preset-solid@1.8.12)(solid-js@1.8.12):
+    resolution: {integrity: sha512-BuRPSICxZVGZjtqxBoTxYJWUF19f6A2uXLKSGqmdWblVZ2noBm88LOTrGUb+kI9RnJjMPiU/fIRGjNCJch1Psw==}
     peerDependencies:
       '@tarojs/runtime': '>=3.0.0'
       '@tarojs/shared': '>=3.0.0'
