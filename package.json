@@ -63,7 +63,7 @@
     "@tarojs/webpack5-runner": "3.6.23",
     "@types/node": "^18.15.11",
     "@types/webpack-env": "^1.13.6",
-    "babel-preset-solid": "^1.8.9",
+    "babel-preset-solid-taro": "0.37.21",
     "babel-preset-taro": "3.6.23",
     "postcss": "^8.4.18",
     "ts-node": "^10.9.1",

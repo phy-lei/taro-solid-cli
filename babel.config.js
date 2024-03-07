@@ -11,7 +11,7 @@ module.exports = {
     ],
     // 设置自定义custom-render编译
     [
-      "babel-preset-solid",
+      "babel-preset-solid-taro",
       {
         moduleName: "tarojs-solid-custom-render",
         generate: "universal",
