@@ -1,3 +1,5 @@
+import { View } from '@tarojs/components'
+
 export default function About() {
-  return <view class="about">about</view>;
+  return <View class="about">about</View>;
 }

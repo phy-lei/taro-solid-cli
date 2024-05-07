@@ -54,11 +54,11 @@ dependencies:
     specifier: ^1.8.11
     version: 1.8.12
   tarojs-plugin-solid:
-    specifier: ^2.0.2
-    version: 2.0.2(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(solid-js@1.8.12)(tarojs-solid-custom-render@2.0.2)
+    specifier: ^3.0.0
+    version: 3.0.0(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(solid-js@1.8.12)(tarojs-solid-custom-render@3.0.0)
   tarojs-solid-custom-render:
-    specifier: ^2.0.2
-    version: 2.0.2(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(babel-preset-solid-taro@0.38.0)(solid-js@1.8.12)
+    specifier: ^3.0.0
+    version: 3.0.0(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(babel-preset-solid-taro@3.0.0)(solid-js@1.8.12)
 
 devDependencies:
   '@babel/core':
@@ -80,8 +80,8 @@ devDependencies:
     specifier: ^1.13.6
     version: 1.18.4
   babel-preset-solid-taro:
-    specifier: 0.38.0
-    version: 0.38.0(@babel/core@7.23.7)
+    specifier: ^3.0.0
+    version: 3.0.0(@babel/core@7.23.7)
   babel-preset-taro:
     specifier: 3.6.23
     version: 3.6.23(@babel/core@7.23.7)
@@ -1934,6 +1934,7 @@ packages:
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
     requiresBuild: true
     optional: true
 
@@ -1942,6 +1943,7 @@ packages:
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
     requiresBuild: true
     optional: true
 
@@ -1950,6 +1952,7 @@ packages:
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
     requiresBuild: true
     optional: true
 
@@ -1958,6 +1961,7 @@ packages:
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
     requiresBuild: true
     optional: true
 
@@ -2063,6 +2067,7 @@ packages:
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -2281,6 +2286,7 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -2290,6 +2296,7 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
@@ -2299,6 +2306,7 @@ packages:
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -2308,6 +2316,7 @@ packages:
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
@@ -3693,8 +3702,8 @@ packages:
       lodash: 4.17.21
     dev: false
 
-  /babel-preset-solid-taro@0.38.0(@babel/core@7.23.7):
-    resolution: {integrity: sha512-ERk5dl0E3ECBzzAcOIBNvQ2qtl8qdzALP0tEYfVfI8zhd8vprwHC+JDhRGUP6JXr6XfKLD9y73kuYdO7m6k4bA==}
+  /babel-preset-solid-taro@3.0.0(@babel/core@7.23.7):
+    resolution: {integrity: sha512-LXMF+Y2yzQkgTA3XGz0B3BNsXWPR0UWwiSfribF6QTtQR30jg1nUIb50aG9INZOfrDwySoM8iS6L3hqL192yDA==}
     dependencies:
       '@babel/helper-module-imports': 7.18.6
       '@babel/plugin-syntax-jsx': 7.23.3(@babel/core@7.23.7)
@@ -7322,6 +7331,7 @@ packages:
     engines: {node: '>= 12.0.0'}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -7331,6 +7341,7 @@ packages:
     engines: {node: '>= 12.0.0'}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
@@ -7340,6 +7351,7 @@ packages:
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -7349,6 +7361,7 @@ packages:
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
@@ -10039,8 +10052,8 @@ packages:
       xtend: 4.0.2
     dev: true
 
-  /tarojs-plugin-solid@2.0.2(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(solid-js@1.8.12)(tarojs-solid-custom-render@2.0.2):
-    resolution: {integrity: sha512-kgukX3ukP9VH2ZmVLaNZzvJwCd04sjxDN1E3sxpupnAaeKpgT/HsEPGWAtpJw+vFmxAvYbM7Nl4N/8r1c71WgA==}
+  /tarojs-plugin-solid@3.0.0(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(solid-js@1.8.12)(tarojs-solid-custom-render@3.0.0):
+    resolution: {integrity: sha512-Zt1v17IwLEeyqZfQkgxOHgOTgoKhyCEU8qBCzjfOlJNMWp1QWvmJ+irHK8hib+LPHd76PzitpJ20wZu0Uggelg==}
     peerDependencies:
       '@tarojs/runtime': '>=3.0.0'
       '@tarojs/shared': '>=3.0.0'
@@ -10050,20 +10063,20 @@ packages:
       '@tarojs/runtime': 3.6.23(@tarojs/shared@3.6.23)
       '@tarojs/shared': 3.6.23
       solid-js: 1.8.12
-      tarojs-solid-custom-render: 2.0.2(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(babel-preset-solid-taro@0.38.0)(solid-js@1.8.12)
+      tarojs-solid-custom-render: 3.0.0(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(babel-preset-solid-taro@3.0.0)(solid-js@1.8.12)
     dev: false
 
-  /tarojs-solid-custom-render@2.0.2(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(babel-preset-solid-taro@0.38.0)(solid-js@1.8.12):
-    resolution: {integrity: sha512-OszJEZQqhLobQZydWukh8v6HpckPOuw/VIuYxJ99uDHSo5zX/KkTcY8/spATc+u1I6fjkYLarQMXBT63IM5WAw==}
+  /tarojs-solid-custom-render@3.0.0(@tarojs/runtime@3.6.23)(@tarojs/shared@3.6.23)(babel-preset-solid-taro@3.0.0)(solid-js@1.8.12):
+    resolution: {integrity: sha512-EZHrrO/TTPy2m0lvkkmWRMqnLbLJfKAbObZEgGu2S7tPPGBHtulzqy5OOrc3g9p6KxO1cAQ2DxBhFG+VMdyvwg==}
     peerDependencies:
       '@tarojs/runtime': '>=3.0.0'
       '@tarojs/shared': '>=3.0.0'
-      babel-preset-solid-taro: '>=0.37'
+      babel-preset-solid-taro: '>=1.0.0'
       solid-js: '>=1'
     dependencies:
       '@tarojs/runtime': 3.6.23(@tarojs/shared@3.6.23)
       '@tarojs/shared': 3.6.23
-      babel-preset-solid-taro: 0.38.0(@babel/core@7.23.7)
+      babel-preset-solid-taro: 3.0.0(@babel/core@7.23.7)
       solid-js: 1.8.12
     dev: false
 

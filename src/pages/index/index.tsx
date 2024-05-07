@@ -1,3 +1,4 @@
+import { View, Text, Button } from '@tarojs/components'
 import { createSignal } from "solid-js";
 import "./index.css";
 
@@ -10,13 +11,13 @@ export default function Index() {
   };
 
   return (
-    <view class="index">
-      <text style={`color: ${color()}`}>Hello world! </text>
-      <text style={{ color: color() }}>Hello world2! </text>
-      <button onClick={() => setColor("blue")}>set style</button>
-      <view>{count()}</view>
-      <button onClick={handleClick}>add</button>
-      <view>{Math.random()}</view>
-    </view>
+    <View class="index">
+      <Text style={`color: ${color()}`}>Hello world! </Text>
+      <Text style={{ color: color() }}>Hello world2! </Text>
+      <Button onClick={() => setColor("blue")}>set style</Button>
+      <View>{count()}</View>
+      <Button onClick={handleClick}>add</Button>
+      <View>{Math.random()}</View>
+    </View>
   );
 }
